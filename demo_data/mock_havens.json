@@ -1,0 +1,68 @@
+[
+  {
+    "id": "haven-1",
+    "name": "City General Hospital",
+    "type": "hospital",
+    "latitude": 12.9745,
+    "longitude": 77.5970,
+    "address": "104 Healthcare Boulevard",
+    "operating_hours": "24/7",
+    "verified": true,
+    "phone": "080-22001100"
+  },
+  {
+    "id": "haven-2",
+    "name": "Central Metro Police Station",
+    "type": "police_station",
+    "latitude": 12.9780,
+    "longitude": 77.6010,
+    "address": "45 Civic Center Road",
+    "operating_hours": "24/7",
+    "verified": true,
+    "phone": "100"
+  },
+  {
+    "id": "haven-3",
+    "name": "Apex 24/7 Superstore & Pharmacy",
+    "type": "verified_24_7_store",
+    "latitude": 12.9810,
+    "longitude": 77.6035,
+    "address": "88 North Avenue",
+    "operating_hours": "24/7",
+    "verified": true,
+    "phone": "080-23456789"
+  },
+  {
+    "id": "haven-4",
+    "name": "Downtown Transit Hub (High Foot Traffic)",
+    "type": "crowded_area",
+    "latitude": 12.9730,
+    "longitude": 77.5955,
+    "address": "Station Plaza West",
+    "operating_hours": "05:00 - 23:30",
+    "verified": true,
+    "phone": "080-22114455"
+  },
+  {
+    "id": "haven-5",
+    "name": "St. Mary's Urgent Care",
+    "type": "hospital",
+    "latitude": 12.9840,
+    "longitude": 77.6045,
+    "address": "12 Library Road",
+    "operating_hours": "24/7",
+    "verified": true,
+    "phone": "108"
+  },
+  {
+    "id": "haven-6",
+    "name": "Northside Community Police Post",
+    "type": "police_station",
+    "latitude": 12.9825,
+    "longitude": 77.5980,
+    "address": "77 Ring Highway",
+    "operating_hours": "24/7",
+    "verified": true,
+    "phone": "100"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "inc-1",
+    "location": "Dark Alley near Underpass Km 2.8",
+    "latitude": 12.9795,
+    "longitude": 77.5990,
+    "type": "poorly_lit",
+    "severity": "high",
+    "timestamp": "2026-09-18T21:40:00Z",
+    "verified": true
+  },
+  {
+    "id": "inc-2",
+    "location": "Industrial By-pass Crossing",
+    "latitude": 12.9805,
+    "longitude": 77.5985,
+    "type": "isolated_area",
+    "severity": "medium",
+    "timestamp": "2026-09-15T22:15:00Z",
+    "verified": true
+  },
+  {
+    "id": "inc-3",
+    "location": "East Market Street",
+    "latitude": 12.9760,
+    "longitude": 77.5980,
+    "type": "construction_hazard",
+    "severity": "low",
+    "timestamp": "2026-09-19T14:30:00Z",
+    "verified": true
+  }
+]

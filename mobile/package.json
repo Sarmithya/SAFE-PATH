@@ -1,0 +1,33 @@
+{
+  "name": "saferoute-mobile",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "node node_modules/@expo/cli/build/bin/cli start",
+    "web": "node node_modules/@expo/cli/build/bin/cli start --web",
+    "android": "node node_modules/@expo/cli/build/bin/cli start --android",
+    "ios": "node node_modules/@expo/cli/build/bin/cli start --ios"
+  },
+  "dependencies": {
+    "expo": "~51.0.0",
+    "expo-status-bar": "~1.12.1",
+    "react": "18.2.0",
+    "react-native": "0.74.5",
+    "react-native-web": "~0.19.10",
+    "react-dom": "18.2.0",
+    "@react-navigation/native": "^6.1.18",
+    "@react-navigation/native-stack": "^6.10.1",
+    "@react-navigation/bottom-tabs": "^6.6.1",
+    "react-native-safe-area-context": "4.10.5",
+    "react-native-screens": "3.31.1",
+    "react-native-paper": "^5.12.5",
+    "react-native-vector-icons": "^10.1.0",
+    "expo-location": "~17.0.1",
+    "expo-notifications": "~0.28.1",
+    "axios": "^1.7.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}

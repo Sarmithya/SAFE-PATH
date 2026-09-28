@@ -1,0 +1,39 @@
+[
+  {
+    "route_number": "335-E",
+    "origin": "College Gate",
+    "destination": "Central Library / Civic Center",
+    "departure_frequency": "Every 12 mins",
+    "first_bus": "05:30 AM",
+    "last_bus": "11:00 PM",
+    "safety_features": [
+      "CCTV Monitored",
+      "Panic Alarm Button Installed",
+      "High Occupancy Route",
+      "Designated Well-Lit Bus Stops"
+    ],
+    "stops": [
+      {"name": "College Gate", "time": "0 min", "safe_haven_nearby": "Campus Security"},
+      {"name": "Transit Plaza", "time": "6 min", "safe_haven_nearby": "Downtown Transit Hub"},
+      {"name": "City Hospital West", "time": "14 min", "safe_haven_nearby": "City General Hospital"},
+      {"name": "Civic Center / Police HQ", "time": "19 min", "safe_haven_nearby": "Central Metro Police Station"},
+      {"name": "Central Library", "time": "24 min", "safe_haven_nearby": "St. Mary's Urgent Care"}
+    ]
+  },
+  {
+    "route_number": "201-R",
+    "origin": "College South",
+    "destination": "Central Library Express",
+    "departure_frequency": "Every 25 mins",
+    "first_bus": "06:00 AM",
+    "last_bus": "09:30 PM",
+    "safety_features": [
+      "CCTV Monitored"
+    ],
+    "stops": [
+      {"name": "College South", "time": "0 min", "safe_haven_nearby": "None"},
+      {"name": "By-Pass Intersection", "time": "11 min", "safe_haven_nearby": "Northside Police Post"},
+      {"name": "Central Library", "time": "20 min", "safe_haven_nearby": "St. Mary's Urgent Care"}
+    ]
+  }
+]

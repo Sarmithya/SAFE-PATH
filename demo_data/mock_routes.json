@@ -1,0 +1,74 @@
+[
+  {
+    "route_id": "route-a-safe",
+    "name": "Route A (Recommended - Boulevard Corridor)",
+    "vehicle": "personal_vehicle",
+    "distance_km": 6.2,
+    "duration_min": 22,
+    "safety_score": 87,
+    "resilience_score": 92,
+    "max_time_to_haven_seconds": 108,
+    "avg_time_to_haven_seconds": 54,
+    "havens_count": 5,
+    "threshold_seconds": 120,
+    "meets_threshold": true,
+    "resilience_status": "PASS",
+    "lighting_score": 92,
+    "foot_traffic_score": 88,
+    "incident_safety_score": 90,
+    "emergency_proximity_score": 86,
+    "tradeoff": "4 minutes slower than the fastest route.",
+    "is_recommended": true,
+    "explanations": [
+      "18% better street lighting coverage than alternate route",
+      "2 additional emergency response facilities along the corridor",
+      "5 verified safe havens within configured 2-minute resilience threshold",
+      "Lower estimated incident-risk signal (commercial avenue)"
+    ],
+    "coordinates": [
+      {"latitude": 12.9716, "longitude": 77.5946},
+      {"latitude": 12.9730, "longitude": 77.5955},
+      {"latitude": 12.9745, "longitude": 77.5970},
+      {"latitude": 12.9780, "longitude": 77.6010},
+      {"latitude": 12.9810, "longitude": 77.6035},
+      {"latitude": 12.9840, "longitude": 77.6045},
+      {"latitude": 12.9850, "longitude": 77.6050}
+    ],
+    "safe_havens_along_route": ["haven-1", "haven-2", "haven-3", "haven-4", "haven-5"]
+  },
+  {
+    "route_id": "route-b-fast",
+    "name": "Route B (Fastest - Industrial By-Pass)",
+    "vehicle": "personal_vehicle",
+    "distance_km": 5.4,
+    "duration_min": 18,
+    "safety_score": 72,
+    "resilience_score": 58,
+    "max_time_to_haven_seconds": 300,
+    "avg_time_to_haven_seconds": 165,
+    "havens_count": 2,
+    "threshold_seconds": 120,
+    "meets_threshold": false,
+    "resilience_status": "WARNING",
+    "lighting_score": 64,
+    "foot_traffic_score": 55,
+    "incident_safety_score": 68,
+    "emergency_proximity_score": 60,
+    "tradeoff": "4 minutes faster, but has lower lighting and higher time-to-haven gaps.",
+    "is_recommended": false,
+    "explanations": [
+      "Fastest travel time via express by-pass",
+      "Exceeds configured resilience threshold between Km 2.1 and 3.8 (up to 5.0 min to nearest haven)",
+      "Lower estimated foot traffic and variable lighting signals after dark",
+      "Fewer verified safe havens accessible along this segment"
+    ],
+    "coordinates": [
+      {"latitude": 12.9716, "longitude": 77.5946},
+      {"latitude": 12.9750, "longitude": 77.5960},
+      {"latitude": 12.9795, "longitude": 77.5990},
+      {"latitude": 12.9825, "longitude": 77.5980},
+      {"latitude": 12.9850, "longitude": 77.6050}
+    ],
+    "safe_havens_along_route": ["haven-4", "haven-6"]
+  }
+]
